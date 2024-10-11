@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body,
+* {
+    font-family: 'Sarabun', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Noto Sans Thai', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.footer {
+    background-color: #f5f5f5;
+}
+
+.footer>.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container#main {
+    padding-bottom: 100px;
+}
+
+.font-bold {
+    font-weight: 500 !important;
+    font-size: 1.5rem !important;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
